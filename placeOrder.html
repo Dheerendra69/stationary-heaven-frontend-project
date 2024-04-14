@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order</title>
+    <link rel="stylesheet" href="/css/placeOrder.css">
+</head>
+<body>
+    <form id="order-form">
+        <h1>Place Order</h1>
+        <div class="form-group">
+            <label for="orderId">Order ID:</label>
+            <input type="text" id="orderId" name="orderId" required>
+        </div>
+        <div class="form-group">
+            <label for="customerName">Customer Name:</label>
+            <input type="text" id="customerName" name="customerName" required>
+        </div>
+        <div class="form-group">
+            <label for="orderDate">Order Date:</label>
+            <input type="date" id="orderDate" name="orderDate" required>
+        </div>
+        <div class="form-group">
+            <label for="gmail">Gmail:</label>
+            <input type="email" id="gmail" name="gmail" placeholder="user@gmail.com" required>
+        </div>
+        
+        <h2>Items</h2>
+        <div id="items-container">
+            </div>
+        <button type="button" id="add-item">Add Item</button>
+        <div class="form-group">
+            <label for="shop">Shop:</label>
+            <select id="shop" name="shop" required>
+                <option value="">Select Shop</option>
+                <option value="lpu26block">lpu26block</option>
+                <option value="lpu27block">lpu27block</option>
+                <option value="lpu28block">lpu28block</option>
+                <option value="lpu29block">lpu29block</option>
+                <option value="lpu30block">lpu30block</option>
+                <option value="lpu31block">lpu31block</option>
+                <option value="lpu32block">lpu32block</option>
+                <option value="lpu33block">lpu33block</option>
+                <option value="lpu34block">lpu34block</option>
+            </select>
+        </div>
+        <h2>Order Summary</h2>
+        <div id="order-summary">
+            <p>Total Amount: <span id="total-amount">0</span></p>
+        </div>
+        <div class="button-container">
+        <button type="submit">Place Order</button>
+        </div>
+    </form>
+    <script src="/js/placeOrder.js"></script>
+</body>
+</html>
