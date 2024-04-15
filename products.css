@@ -4,11 +4,9 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: #393E46;
     font-family: Poppins ;
     letter-spacing: .2px;
     font-weight: 400px;
-    background-color: #B09B71;
 }
 
 
@@ -30,11 +28,16 @@
     border: 2px solid black;
     border-radius: 10px;
     width: 22%;
-
+    height: 400px;
     opacity: 0;
     animation: fadeIn 2s ease-in forwards, bounce 1s infinite alternate, pulsateGlow 2s linear infinite;
     transition: background-color 0.3s ease;
     background-color: grey;
+}
+
+.content img{
+  height: 250px;
+  width: 300px;
 }
 
 h3{
