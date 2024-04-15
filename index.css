@@ -164,10 +164,9 @@ img {
 }
 
 .nav__name {
-  /* font-size: var(--tiny-font-size); */
   margin-right: 10px;
   font-size: 20px;
-  /* display: none;*/ /* Minimalist design, hidden labels */
+  
 }
 
 .nav__icon {
@@ -499,7 +498,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-background-image: url("/Images/Logo.jpeg"); /* Added background color */
+background-image: url("Logo.jpeg"); /* Added background color */
 background-size: cover;
 height: 300px;
 width: 300px;
