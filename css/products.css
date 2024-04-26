@@ -156,6 +156,21 @@ width: 100%;
 
 
 
+/* 
+  @keyframes pulsateGlow {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 20px 20px rgba(255, 255, 255, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+  }
+  
+   */
+
 @keyframes pulsateGlow {
     0% {
       box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
@@ -170,8 +185,7 @@ width: 100%;
       transform: scale(1);
     }
   }
-
-
+  
 
 @media screen and (max-width: 1400px){
   .content{
@@ -221,4 +235,3 @@ width: 100%;
     width: 800px;
   }
 } 
-  

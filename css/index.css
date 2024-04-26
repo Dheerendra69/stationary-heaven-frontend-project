@@ -841,7 +841,6 @@ p {
 }
 
 
-
 @media screen and (max-width: 1400px){
   .item-content{
     width: 21%;
@@ -880,4 +879,3 @@ p {
     justify-content: space-between;
   }
 } 
-
