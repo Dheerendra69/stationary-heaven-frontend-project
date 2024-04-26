@@ -841,3 +841,43 @@ p {
 }
 
 
+
+@media screen and (max-width: 1400px){
+  .item-content{
+    width: 21%;
+    height: 345px;
+  }
+  .item-content img{
+    height: 200px;
+    width: 300px;
+  }
+  .btn{
+    width: 100px;
+    height: 30px;
+  }
+  .seeSimilarProduct{
+    width: 240px;
+    height: 240px;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  .labcontent{
+    width: 30%;
+    height: 250px;
+  }
+  .about-text{
+    font-size: 16px;
+  }
+  .about-text h2{
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .nav_logo{
+    font-size: 18px;
+  }
+  .nav__list{
+    margin-left: 30px;
+    justify-content: space-between;
+  }
+} 
+
