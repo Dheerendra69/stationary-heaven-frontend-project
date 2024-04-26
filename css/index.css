@@ -401,7 +401,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/Logo.jpeg");
+  background-image: url("/images/Logo.jpeg");
   /* Added background color */
   background-size: cover;
   height: 300px;
