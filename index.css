@@ -498,7 +498,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-background-image: url("Logo.jpeg"); /* Added background color */
+background-image: url("images/Logo.jpeg"); /* Added background color */
 background-size: cover;
 height: 300px;
 width: 300px;
